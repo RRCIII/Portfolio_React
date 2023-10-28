@@ -45,7 +45,7 @@ const About = () => {
             <p className="mb-4">
             "My journey to transition into a new career has been an exciting challenge that's pushed me to grow in my technical skills. I've thoroughly 
             enjoyed solving complex problems and optimizing front-end applications, all while maintaining a deep commitment to delivering a top-notch user experience 
-            through cutting-edge technologies. When I'm not passionately typing away at my keyboard, you'll find me on the basketball court, honing my teamwork skills and 
+            through diverse technologies. When I'm not passionately typing away at my keyboard, you'll find me on the basketball court, honing my teamwork skills while
             extending my attributes in a team-oriented atmosphere. I'm also an avid reader of novels, which fuels my creative thinking and enriches my perspective on problem-solving."
             </p>
             <h5
