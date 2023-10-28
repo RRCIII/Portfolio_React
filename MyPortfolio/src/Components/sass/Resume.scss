@@ -1,0 +1,129 @@
+#resume {
+    padding: 10rem 0 8rem;
+}
+
+#resume h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+#resume h3 {
+    font-family: 'Over the Rainbow', cursive;
+    font-weight: bold;
+    margin-top: 5rem;
+    margin-bottom: 2.5rem !important;
+    text-decoration: underline;
+}
+
+.resume-container {
+    display: inline-block;
+    padding: 5rem 7rem;
+    box-shadow: 2px 4px 7px rgb(0 0 0 / 50%);
+}
+
+.edu-top p {
+    margin-bottom: 0.3rem;
+}
+
+.edu-bottom ul {
+    margin-bottom: 0.3rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .resume-container {
+        width: 100%;
+        padding: 5rem 1rem;
+    }
+
+    .resume-container a {
+        word-wrap: break-word;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .edu-container {
+        justify-content: center !important;
+        align-items: center !important;
+        flex-direction: column;
+        gap: 0.5rem;
+     }
+ 
+     .edu-container h6 {
+         text-align: center;
+     }
+
+     .edu-top {
+        text-align: center;
+     }
+ 
+    .edu-bottom {
+         margin-bottom: 1.5rem;
+         align-self: center !important;
+    }
+
+    .edu-bottom ul {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    #resume {
+        text-align: center;
+    }
+
+    #resume ul {
+        padding: 0;
+    }
+
+    #resume li {
+        list-style-type: none;
+    }
+
+    .my-resume-header h2 {
+        font-size: 2.5rem;
+    }
+
+    .main-projects-container h3 {
+        margin-top: 5rem !important;
+    }
+
+    .project-links-container > li {
+        margin-bottom: 2.5rem;
+    }
+
+    .project-links li {
+        margin-bottom: 0.5rem;
+    }
+
+    .skills-container {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .skills-container ul {
+        width: 100%;
+    }
+
+    .my-resume-certificates ul:first-child {
+        margin-bottom: 2.5rem;
+    }
+
+    .my-resume-certificates ul {
+        padding-left: 1rem !important;
+    }
+
+    #resource-one {
+        list-style-type: square !important;
+    }
+
+    #resource-two {
+        list-style-type: square !important;
+    }
+
+    .my-resume-certificates li {
+        list-style-type: circle !important;
+    }
+
+    .my-resume-skills h3 {
+        margin-top: 2.5rem !important;
+    }
+}
