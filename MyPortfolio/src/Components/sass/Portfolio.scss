@@ -1,0 +1,56 @@
+#portfolio {
+    width: 100%;
+    min-width: 100vw;
+    height: 100%;
+    min-height: 100vh;
+}
+
+#portfolio h5 {
+    font-family: 'Over the Rainbow', cursive;
+    font-size: 1.5rem;
+}
+
+.static-image {
+    display: block;
+    z-index: 1;
+}
+
+.gif-image {
+    display: none;
+}
+
+.gif {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.img-contain {
+    width: 100%;
+    height: 100%;
+}
+  
+.img-container:hover .static-image {
+    display: none;
+}
+  
+.img-container:hover .gif-image {
+    display: block;
+}  
+
+@media screen and (max-width: 1400px) {
+    #portfolio {
+        width: 100%;
+        height: 100%;
+    }
+
+    .project-container {
+        padding: 10rem 0;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .project-row {
+        width: 100%;
+    }
+}
