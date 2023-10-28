@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Over+the+Rainbow&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  background-image: url('https://images.unsplash.com/photo-1518655048521-f130df041f66?auto=format&fit=crop&q=80&w=2940&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
+  background-position: center;
+}
+
+.nav-fg {
+  gap: 0.7rem;
+}
+
+.fg-1 {
+  gap: 1rem;
+}
+
+.fg-2 {
+  gap: 2rem;
+}
+
+
+.vw-vh {
+  width: 100%;
+  min-width: 100vw;
+  height: 100%;
+  min-height: 100vh;
+}
+
+.margin-left {
+  margin-left: 5rem;
+}
+
+.img-container {
+  display: inline-block;
+  padding: 0.9375rem 0.9375rem 3.125rem;
+  box-shadow: 2px 4px 7px rgb(0 0 0 / 50%);
+  width: 320px;
+  height: 360px;
+  transition: 0.3s ease-out;
+  cursor: pointer;
+}
+
+.img-container:hover {
+  transform: scale(1.1);
+}
+
+.img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+$primary: #305c79;
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss'
