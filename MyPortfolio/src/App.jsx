@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-undef */
 /* eslint-disable react/jsx-no-target-blank */
 import { useEffect } from 'react'
 const App = () => {
@@ -5,9 +6,12 @@ const App = () => {
   useEffect(() =>{
     document.cookie = "myCookie=myValue; SameSite=None; Secure";
   }, [])
-  
+
   return ( 
-    <div className="main-container"></div>
+    <div className="main-container">
+      <NavigationBar />
+      <Outlet />
+    </div>
 
    );
 }
