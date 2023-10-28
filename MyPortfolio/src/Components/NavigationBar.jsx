@@ -10,7 +10,7 @@ import { faCameraRetro } from "@fortawesome/free-solid-svg-icons";
 const NavigationBar = () => {
     const [ expand, setExpanded] = useState(false);
 
-    const closeNarbar = () => {
+    const closeNavbar = () => {
         setExpanded(false);
     };
     
