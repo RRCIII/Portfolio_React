@@ -47,7 +47,7 @@ const Contact = () => {
             </ContactLinks>
             <ContactLinks
               link="mailto:randolphcarter5@gmail.com"
-              title="randoplhcarter5@gmail.com"
+              title="randolphcarter5@gmail.com"
             >
               <MdOutlineAlternateEmail
                 size={35}
