@@ -8,7 +8,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCameraRetro } from "@fortawesome/free-solid-svg-icons";
 
 const NavigationBar = () => {
-    const [ expand, setExpanded] = useState(false);
+    const [ expanded, setExpanded] = useState(false);
 
     const closeNavbar = () => {
         setExpanded(false);
