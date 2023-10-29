@@ -6,7 +6,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom"
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import App from "./App.jsx";
-import Homepage from "./pages/Homepage.jsx";
+import Homepage from "./pages/HomePage.jsx";
 import About from "./pages/About.jsx";
 import Portfolio from "./pages/Portfolio.jsx";
 import Contact from "./pages/Contact.jsx";

@@ -1,8 +1,8 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
-import ContactLinks from "../components/Contact/ContactLinks";
-import ContactForm from "../components/Contact/ContactForm";
+import ContactLinks from "../Components/Contact/ContactLink";
+import ContactForm from "../Components/Contact/ContactForm";
 import {
   Button,
   Col,
