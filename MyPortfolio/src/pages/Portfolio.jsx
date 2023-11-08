@@ -35,13 +35,8 @@ const Portfolio = () => {
               >
                 <img
                   className={hover ? "static-image" : ""}
-                  src=""
+                  src="https://plus.unsplash.com/premium_photo-1661877737564-3dfd7282efcb?w=1600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8UmVhY3R8ZW58MHx8MHx8fDA%3D"
                   alt="project-one-image"
-                />
-                <img
-                  className={`gif ${hover ? "" : "gif-image"}`}
-                  src=""
-                  alt="project-one-gif"
                 />
               </a>
             </ProjectImage>
@@ -58,13 +53,8 @@ const Portfolio = () => {
               >
                 <img
                   className={hover ? "static-image" : ""}
-                  src="https://images.unsplash.com/photo-1518548183878-5e1fcea68bb9?auto=format&fit=crop&q=80&w=2940&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  src="https://images.unsplash.com/photo-1590552515252-3a5a1bce7bed?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                   alt="project-two-image"
-                />
-                <img
-                  className={`gif ${hover ? "" : "gif-image"}`}
-                  src="https://user-images.githubusercontent.com/88423414/277140769-6ec20297-6bd3-46aa-87e3-594377d1518b.gif"
-                  alt="project-two-gif"
                 />
               </a>
             </ProjectImage>
@@ -81,13 +71,8 @@ const Portfolio = () => {
               >
                 <img
                   className={hover ? "static-image" : ""}
-                  src=""
+                  src="https://images.unsplash.com/photo-1585435465945-bef5a93f8849?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                   alt="project-three-image"
-                />
-                <img
-                  className={`gif ${hover ? "" : "gif-image"}`}
-                  src=""
-                  alt="project-three-gif"
                 />
               </a>
             </ProjectImage>
