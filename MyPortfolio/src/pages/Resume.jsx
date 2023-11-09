@@ -38,16 +38,16 @@ const Resume = () => {
                           target="_blank"
                           rel="noreferrer"
                         >
-                          https://blogabouttech-bbe78e14d63a.herokuapp.
+                         Tech-Blog
                         </a>
                       </li>
                       <li>
                         <a
-                          href="https://blogabouttech-bbe78e14d63a.herokuapp."
+                          href="https://drive.google.com/file/d/1Q8Q_cpDge0cVq6bMxlxiKw1TFI1LHq8S/view"
                           target="_blank"
                           rel="noreferrer"
                         >
-                          https://blogabouttech-bbe78e14d63a.herokuapp.
+                          E-commerce backend
                         </a>
                       </li>
                     </ul>
@@ -63,10 +63,7 @@ const Resume = () => {
                   <div className="project-links mb-4">
                     <ul>
                       <li>
-                        <a href="" target="_blank" rel="noreferrer"></a>
-                      </li>
-                      <li>
-                        <a href="" target="_blank" rel="noreferrer"></a>
+                        <a href="https://github.com/RRCIII/CodingQuiz" target="_blank" rel="noreferrer">Coding Quiz</a>
                       </li>
                     </ul>
                   </div>

@@ -18,12 +18,12 @@ const About = () => {
           <Col lg={4} className="d-flex justify-content-center">
             <div className="img-container">
               <a
-                href="https://"
+                href="https://github.com/RRCIII/Portfolio_React"
                 target="_blank"
                 rel="noreferrer"
               >
                 <img
-                  src="https://"
+                  src="https://avatars.githubusercontent.com/u/132403132?v=4"
                   alt="portfolio-image"
                 />
               </a>
