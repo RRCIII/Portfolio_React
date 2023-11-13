@@ -1,5 +1,5 @@
 import { useState } from "react";
-import ProjectImage from "../components/Portfolio/ProjectImage";
+import ProjectImage from "../Components/Portfolio/ProjectImage";
 import { Container, Row } from "react-bootstrap";
 import "../sass/Portfolio.scss";
 
