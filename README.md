@@ -9,18 +9,17 @@ Fully responsive React portfolio built with Vite.js. Utilizing React-Bootstrap a
 
 ## Link to the Deployed Application
 
-- <a href="">Click Here</a>
+- <a href="https://main--nimble-shortbread-456155.netlify.app/">Click Here</a>
 
 ## Usage
 
 - #### Click on the hyperlink above. Check it out!
 
-<img src="" />
+<img src="./images/Screenshot_Porfolio_Profile.png" />
 
 ## Credits
 
 - Youtube, ChatGPT, docs, collegues from UNC-Chapel Hill full stack bootcamp.
-- Code written by Ricky Carter.
 
 ## License
 
